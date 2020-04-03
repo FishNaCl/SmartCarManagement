@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/nav-page",
+    "pages/school/school-main",
+    "pages/school/express/express-detail/express-detail",
+    "pages/school/express/express-receive-list/express-receive-list",
+    "pages/school/express/express-send/express-send",
+    "pages/order-confirm/pay-waiting/pay-waiting",
+    "pages/order-confirm/pay-result/pay-result",
+    "pages/scenic/scenic-main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "reservation": "/pages/scenic/reservation/reservation",
+    "tracing": "/pages/scenic/tracing/tracing",
+    "vend": "/pages/scenic/vend/vend"
+  }
+}

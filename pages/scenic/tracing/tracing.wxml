@@ -1,0 +1,13 @@
+<!--pages/scenic/tracing/tracing.wxml-->
+<view class='cu-bar solid-bottom bg-white'>
+	<view class='action'>
+		<text class='cuIcon-title text-blue'></text>请上传需要寻找的人的图片
+	</view>
+</view>
+<view class="margin-left"><van-uploader file-list="{{ fileList }}" bind:after-read="afterRead" /></view>
+
+<view class="padding text-center">
+	<button class="cu-btn bg-blue lg block">发起寻人</button>
+</view>
+
+<view class="text-center text-sm text-grey">找到后我们将会通过电话联系您</view>

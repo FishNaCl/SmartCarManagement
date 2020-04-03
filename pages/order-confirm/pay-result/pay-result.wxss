@@ -1,0 +1,4 @@
+/* pages/order-confirm/pay-result/pay-result.wxss */
+page {
+  background-color: white;
+}

@@ -1,0 +1,57 @@
+<!--pages/school/express/express-detail/express-detail.wxml-->
+<view class="cu-timeline">
+	<view class="cu-time">01-15</view>
+	<view class="cu-item">
+		<view class="content bg-blue">
+			<text>10:00</text>  派件已完成, 感谢您的支持
+		</view>
+	</view>
+	<view class="cu-item">
+		<view class="content">
+			<text>09:30</text>  您的快件正在由我们派送, 请留意您的手机
+		</view>
+	</view>
+	<view class="cu-item">
+		<view class="content">
+			<text>01:30</text>  快件到达[广西南宁转运中心], 扫描员是[XX]
+		</view>
+	</view>
+</view>
+
+<view class="cu-timeline">
+	<view class="cu-time">01-14</view>
+	<view class="cu-item">
+		<view class="content">
+			<text>05:33</text>  快件由[广东深圳转运中心]发往[广西南宁转运中心]
+		</view>
+	</view>
+</view>
+
+<view class="cu-timeline">
+	<view class="cu-time">01-13</view>
+	<view class="cu-item">
+		<view class="content">
+			<text>20:07</text>  [广东深圳罗湖市场二部]的收件员[XXX]已收件
+		</view>
+	</view>
+	<view class="cu-item">
+		<view class="content">
+			<text>20:06</text>  包裹正等待揽收
+		</view>
+	</view>
+</view>
+
+<view class="cu-timeline">
+	<view class="cu-time">01-12</view>
+	<view class="cu-item">
+		<view class="content">
+			<text>14:37</text>  商品已经下单
+		</view>
+	</view>
+</view>
+
+<view class="cu-tabbar-heigh"></view>
+
+<view class="padding flex flex-direction" style="position: fixed;bottom: 0;left: 0;width:100%">
+  <button class="cu-btn bg-blue lg block">确认收货</button>
+</view>

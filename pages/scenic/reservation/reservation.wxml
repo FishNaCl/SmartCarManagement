@@ -1,0 +1,47 @@
+<!--pages/scenic/reservation/reservation.wxml-->
+<view class="cu-timeline solid-bottom">
+	<view class="cu-item text-blue">请选择地点
+		<form>
+			<view class="cu-form-group">
+				<input placeholder="我们将会在这里与您会和"></input>
+				<text class="cuIcon-locationfill text-blue"></text>
+			</view>
+		</form>
+	</view>
+</view>
+
+<view class="cu-form-group">
+	<view class="title">服务类型</view>
+	<picker>
+		<view class="picker">
+			请选择
+		</view>
+	</picker>
+</view>
+
+<view class='cu-bar solid-bottom bg-white'>
+	<view class='action'>
+		服务时间选择
+	</view>
+</view>
+<view class="cu-form-group">
+	<view class="title">从</view>
+	<picker>
+		<view class="picker">
+			请选择
+		</view>
+	</picker>
+</view>
+<view class="cu-form-group">
+	<view class="title">至</view>
+	<picker>
+		<view class="picker">
+			请选择
+		</view>
+	</picker>
+</view>
+
+<!-- <view style="position: fixed;bottom: 0;left: 0;width:100%"> -->
+	<van-submit-bar price="{{500}}" button-text="提交订单" tip="{{false}}" bind:submit="onSubmit">
+	</van-submit-bar>
+<!-- </view> -->

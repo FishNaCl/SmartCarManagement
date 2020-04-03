@@ -1,0 +1,21 @@
+<!--pages/order-confirm/pay-waiting/pay-waiting.wxml-->
+<view class="padding-xs flex align-center">
+	<view class="flex-sub text-center">
+		<view class="solid-bottom text-xl padding">
+			<text class="text-black text-bold">您的订单已提交成功！</text>
+		</view>
+	</view>
+</view>
+
+<view class="padding-xs flex align-center">
+	<view class="flex-sub text-center">
+		<view class="solid-bottom text-xxl padding">
+			<text class="text-price text-red">5.00</text>
+		</view>
+		<view class="padding">等待付款...</view>
+	</view>
+</view>
+
+<view class="padding flex flex-direction" style="position: fixed;bottom: 300px;left: 0;width:100%">
+  <button class="cu-btn bg-blue lg block" bindtap="onPayConfirmBtnClick">已完成支付</button>
+</view>

@@ -1,0 +1,10 @@
+/* pages/scenic/vend/vend.wxss */
+@import "/colorui/main.wxss";
+@import "/colorui/icon.wxss";
+
+.cu-timeline>.cu-item {
+  padding: 40rpx 30rpx 30rpx 120rpx;
+  position: relative;
+  display: block;
+  z-index: 0;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "smartcarmanagement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FishNaCl/SmartCarManagement.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FishNaCl/SmartCarManagement/issues"
+  },
+  "homepage": "https://github.com/FishNaCl/SmartCarManagement#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.1.0"
+  }
+}

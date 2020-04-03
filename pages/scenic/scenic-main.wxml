@@ -1,0 +1,17 @@
+<view class="main-view" style="height: {{windowHeight}}px">
+	<reservation wx:if="{{pageCur=='reservation'}}"></reservation>
+	<vend wx:if="{{pageCur=='vend'}}"></vend>
+	<tracing wx:if="{{pageCur=='tracing'}}"></tracing>
+</view>
+
+<view class="cu-bar tabbar bg-white foot shadow">
+	<view class="action {{pageCur=='reservation'?'text-blue':'text-gray'}}" bindtap="onNavChange" data-cur="reservation">
+		<view class="cuIcon-time"></view> 预定
+	</view>
+	<view class="action {{pageCur=='vend'?'text-blue':'text-gray'}}" bindtap="onNavChange" data-cur="vend">
+		<view class="cuIcon-shop"></view> 售货
+	</view>
+	<view class="action {{pageCur=='tracing'?'text-blue':'text-gray'}}" bindtap="onNavChange" data-cur="tracing">
+		<view class="cuIcon-profile"></view> 寻人
+	</view>
+</view>

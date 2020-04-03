@@ -1,0 +1,27 @@
+/* pages/school/express/express-main.wxss */
+@import "/colorui/main.wxss";
+@import "/colorui/icon.wxss";
+page {
+  background-color: white;
+  height: 100%;
+}
+
+.top-btn {
+  width: 40%;
+  height: 120rpx;
+}
+
+.cu-card.article>.cu-item .content>image {
+  width: 150rpx;
+  height: 6.4em;
+  margin-right: 20rpx;
+  border-radius: 6rpx;
+}
+ 
+.cu-card.article>.cu-item .content .text-content {
+  font-size: 28rpx;
+  color: #888;
+  height: auto;
+  overflow: hidden;
+}
+  

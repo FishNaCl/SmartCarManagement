@@ -1,0 +1,4 @@
+/* pages/order-confirm/pay-waiting/pay-waiting.wxss */
+page {
+  background-color: white;
+}

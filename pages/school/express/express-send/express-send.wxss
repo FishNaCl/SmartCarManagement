@@ -1,0 +1,12 @@
+/* pages/school/express/express-send/express-send.wxss */
+page {
+  background-color: white;
+  height: 100%;
+}
+
+.cu-timeline>.cu-item {
+  padding: 40rpx 30rpx 30rpx 120rpx;
+  position: relative;
+  display: block;
+  z-index: 0;
+}

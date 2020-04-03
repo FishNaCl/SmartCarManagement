@@ -1,0 +1,18 @@
+<!--pages/school/school-main.wxml-->
+<view class="main-view" style="height: {{windowHeight}}px">
+	<food-takeaway wx:if="{{pageCur=='food-takeaway'}}"></food-takeaway>
+	<express wx:if="{{pageCur=='express'}}"></express>
+	<errand wx:if="{{pageCur=='errand'}}"></errand>
+</view>
+
+<view class="cu-bar tabbar bg-white foot shadow">
+	<view class="action {{pageCur=='food-takeaway'?'text-blue':'text-gray'}}" bindtap="onNavChange" data-cur="food-takeaway">
+		<view class="cuIcon-taoxiaopu"></view> 外卖
+	</view>
+	<view class="action {{pageCur=='express'?'text-blue':'text-gray'}}" bindtap="onNavChange" data-cur="express">
+		<view class="cuIcon-deliver"></view> 快递
+	</view>
+	<view class="action {{pageCur=='errand'?'text-blue':'text-gray'}}" bindtap="onNavChange" data-cur="errand">
+		<view class="cuIcon-cart"></view> 跑腿
+	</view>
+</view>

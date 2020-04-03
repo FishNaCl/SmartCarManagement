@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "food-takeaway": "/pages/school/food-takeaway/business-list/business-list",
+    "express": "/pages/school/express/express-main",
+    "errand": "/pages/school/errand/errand"
+  }
+}
