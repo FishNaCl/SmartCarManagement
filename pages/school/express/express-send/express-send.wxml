@@ -3,6 +3,14 @@
 	<view class="cu-item text-blue">寄
 		<form>
 			<view class="cu-form-group">
+				<input placeholder="您的姓名?"></input>
+				<text class="cuIcon-myfill text-blue"></text>
+			</view>
+			<view class="cu-form-group">
+				<input placeholder="您的联系方式?"></input>
+				<text class="cuIcon-markfill text-blue"></text>
+			</view>
+			<view class="cu-form-group">
 				<input placeholder="您想从哪里寄出去?"></input>
 				<text class="cuIcon-locationfill text-blue"></text>
 			</view>
@@ -14,6 +22,14 @@
 	<view class="cu-item text-orange">收
 		<form>
 			<view class="cu-form-group">
+				<input placeholder="收件人的姓名?"></input>
+				<text class="cuIcon-myfill text-orange"></text>
+			</view>
+			<view class="cu-form-group">
+				<input placeholder="收件人的联系方式?"></input>
+				<text class="cuIcon-markfill text-orange"></text>
+			</view>
+			<view class="cu-form-group">
 				<input placeholder="您想寄到哪里?"></input>
 				<text class="cuIcon-locationfill text-orange"></text>
 			</view>
@@ -24,10 +40,10 @@
 <form>
 	<view class='cu-bar solid-bottom bg-white'>
 		<view class='action'>
-			<text class='cuIcon-title text-blue'></text>取件设置</view>
+			<text class='cuIcon-title text-blue'></text>寄件设置</view>
 	</view>
 	<view class="cu-form-group">
-		<view class="title">取件日期选择</view>
+		<view class="title">寄件日期选择</view>
 		<picker mode="date" value="{{date}}" start="2015-09-01" end="2020-09-01" bindchange="DateChange">
 			<view class="picker">
 				{{date}}
@@ -60,6 +76,7 @@
 		</picker>
 	</view>
 </form>
+<view class="cu-tabbar-height"></view>
 
 <view style="position: fixed;bottom: 0;left: 0;width:100%">
 	<van-submit-bar price="{{500}}" button-text="提交订单" tip="{{false}}" bind:submit="onSubmit">

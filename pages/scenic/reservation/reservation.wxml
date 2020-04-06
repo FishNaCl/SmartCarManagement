@@ -24,8 +24,9 @@
 		服务时间选择
 	</view>
 </view>
+
 <view class="cu-form-group">
-	<view class="title">从</view>
+	<view class="title">服务时间从</view>
 	<picker>
 		<view class="picker">
 			请选择
@@ -42,6 +43,6 @@
 </view>
 
 <!-- <view style="position: fixed;bottom: 0;left: 0;width:100%"> -->
-	<van-submit-bar price="{{500}}" button-text="提交订单" tip="{{false}}" bind:submit="onSubmit">
-	</van-submit-bar>
+<van-submit-bar price="{{500}}" button-text="提交订单" tip="{{false}}" bind:submit="onSubmit">
+</van-submit-bar>
 <!-- </view> -->

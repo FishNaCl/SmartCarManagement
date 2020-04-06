@@ -1,7 +1,8 @@
 <!--pages/nav-page.wxml-->
 <view class="center">
 	<view class="flex flex-direction">
-		<button class="cu-btn bg-blue lg block" bindtap="onSchoolBtnClick">校园</button>
+		<button class="cu-btn bg-blue lg block" bindtap="onSchoolBtnClick">社区</button>
+		<button class="cu-btn bg-blue lg block margin-top" bindtap="onSchoolBtnClick">校园</button>
 		<button class="cu-btn bg-blue lg block margin-top" bindtap="onScenicBtnClick">景区</button>
 	</view>
 </view>

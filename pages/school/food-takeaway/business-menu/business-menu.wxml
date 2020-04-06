@@ -1,0 +1,148 @@
+<!--pages/school/food-takeaway/business-menu/business-menu.wxml-->
+<!-- <cover-image class="go-to-pay" src="./image/go-to-pay.png" bindtap="onGoToPayBtnClick"></cover-image> -->
+
+<view class="VerticalBox">
+	<scroll-view class="VerticalNav nav" scroll-y scroll-with-animation scroll-top="{{VerticalNavTop}}" style="height:calc(100vh)">
+		<view class="cu-item {{0==TabCur?'text-blue cur':''}}" bindtap='tabSelect' data-id="0">
+			正餐
+		</view>
+		<view class="cu-item {{1==TabCur?'text-blue cur':''}}" bindtap='tabSelect' data-id="1">
+			饮品
+		</view>
+		<view class="cu-item {{2==TabCur?'text-blue cur':''}}" bindtap='tabSelect' data-id="2">
+			甜点
+		</view>
+	</scroll-view>
+
+	<scroll-view class="VerticalMain" scroll-y scroll-with-animation style="height:calc(100vh)" scroll-into-view="main-{{MainCur}}" bindscroll="VerticalMain">
+		<view class="padding-top padding-lr" id="main-0">
+			<view class='cu-bar solid-bottom bg-white'>
+				<view class='action'>
+					<text class='cuIcon-title text-blue'></text> 正餐 </view>
+			</view>
+			<view class="cu-list menu-avatar">
+				<view class="cu-item">
+					<view class="cu-avatar radius lg" style="background-image:url(/pages/school/food-takeaway/business-menu/image/food-3.jpg);"></view>
+					<view class="content">
+						<view class="text-black">烧鹅拼叉烧饭</view>
+						<view class="text-gray text-sm flex">
+							<text class="text-cut">
+								<text class="text-red">12.99元</text>
+							</text>
+						</view>
+					</view>
+					<view class="action" style="transform:rotate(45deg);">
+						<text class="cuIcon-roundclosefill text-blue"></text>
+					</view>
+				</view>
+				<view class="cu-item">
+					<view class="cu-avatar radius lg" style="background-image:url(/pages/school/food-takeaway/business-menu/image/food-5.jpg);">
+						<view class="cu-tag badge">热</view>
+					</view>
+					<view class="content">
+						<view class="text-grey">
+							<text class="text-cut text-black">手抓鸡套餐</text>
+							<view class="cu-tag round bg-orange sm">9.5折</view>
+						</view>
+						<view class="text-gray text-sm flex">
+							<!-- <text class="text-cut">我们家的招牌菜</text> -->
+							<text class="text-red">19.00元</text>
+						</view>
+					</view>
+					<view class="action" style="transform:rotate(45deg);">
+						<text class="cuIcon-roundclosefill text-blue"></text>
+					</view>
+				</view>
+				<view class="cu-item ">
+					<view class="cu-avatar radius lg" style="background-image:url(/pages/school/food-takeaway/business-menu/image/food-1.jpg);"></view>
+					<view class="content">
+						<view class="text-black">
+							<text class="text-cut">烧鹅拼鸡油饭</text>
+						</view>
+						<view class="text-gray text-sm flex">
+							<text class="text-red">15.00元</text>
+						</view>
+					</view>
+					<view class="action" style="transform:rotate(45deg);">
+						<text class="cuIcon-roundclosefill text-blue"></text>
+					</view>
+				</view>
+				<view class="cu-item grayscale">
+					<view class="cu-avatar radius lg" style="background-image:url(/pages/school/food-takeaway/business-menu/image/food-4.jpg);"></view>
+					<view class="content">
+						<view>
+							<text class="text-cut">金牌四保饭</text>
+							<view class="cu-tag round bg-orange sm">已售完</view>
+						</view>
+						<view class="text-gray text-sm flex">
+							<text class="text-red">15.00元</text>
+						</view>
+					</view>
+					<view class="action" style="transform:rotate(45deg);">
+						<text class="cuIcon-roundclosefill text-blue"></text>
+					</view>
+				</view>
+				<view class="cu-item cur">
+					<view class="cu-avatar radius lg" style="background-image:url(/pages/school/food-takeaway/business-menu/image/food-2.jpg);">
+					</view>
+					<view class="content">
+						<view>
+							<text class="text-cut">茶树菇炖老鸡汤</text>
+						</view>
+						<view class="text-gray text-sm flex">
+							<text class="text-red">8.00元</text>
+						</view>
+					</view>
+					<view class="action" style="transform:rotate(45deg);">
+						<text class="cuIcon-roundclosefill text-blue"></text>
+					</view>
+				</view>
+			</view>
+
+		</view>
+
+		<view class="padding-top padding-lr" id="main-1">
+			<view class='cu-bar solid-bottom bg-white'>
+				<view class='action'>
+					<text class='cuIcon-title text-blue'></text> 饮品 </view>
+			</view>
+			<view class="cu-list menu-avatar">
+				<view class="cu-item">
+					<view class="cu-avatar round lg" style="background-image:url(./image/drink-1.jpg);"></view>
+					<view class="content">
+						<view class="text-grey">西瓜汁</view>
+						<view class="text-gray text-sm flex">
+							<text class="text-red">5.00元</text>
+						</view>
+					</view>
+					<view class="action" style="transform:rotate(45deg);">
+						<text class="cuIcon-roundclosefill text-blue"></text>
+					</view>
+				</view>
+				<view class="cu-item">
+					<view class="cu-avatar round lg" style="background-image:url(./image/drink-2.jpg);">
+						<!-- <view class="cu-tag badge">99+</view> -->
+					</view>
+					<view class="content">
+						<view class="text-grey">
+							<text class="text-cut">橙汁</text>
+							<!-- <view class="cu-tag round bg-orange sm">战士</view> -->
+						</view>
+						<view class="text-gray text-sm flex">
+							<text class="text-red">6.00元</text>
+						</view>
+					</view>
+					<view class="action" style="transform:rotate(45deg);">
+						<text class="cuIcon-roundclosefill text-blue"></text>
+					</view>
+				</view>
+			</view>
+			<view class="cu-tabbar-height"></view>
+		</view>
+	</scroll-view>
+</view>
+
+<view style="position: fixed;bottom: 0;left: 0;width:100%">
+	<van-submit-bar price="{{0}}" button-text="提交订单" tip="{{false}}" bind:submit="onSubmit">
+	</van-submit-bar>
+</view>

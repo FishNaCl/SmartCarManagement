@@ -7,7 +7,8 @@
     "pages/school/express/express-send/express-send",
     "pages/order-confirm/pay-waiting/pay-waiting",
     "pages/order-confirm/pay-result/pay-result",
-    "pages/scenic/scenic-main"
+    "pages/scenic/scenic-main",
+    "pages/school/food-takeaway/business-menu/business-menu"
   ],
   "window": {
     "backgroundTextStyle": "light",
